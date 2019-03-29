@@ -19,7 +19,7 @@ Team: 一梦南柯
 
 ### 数据爬取：[SWAPI 网站](https://swapi.co/documentation)  
 ### 数据格式简览：  
-![baidu]( https://github.com/WenRichard/Intelligent-Furniture-FAQ/raw/master/Image/百度AnyQ.png "百度AnyQ Framework") 
+![data]( https://github.com/WenRichard/Knowledge-Graph-Exploration/raw/master/Starts-War-Graph/image/data.png "Films提供的JSON格式数据") 
 * ### get_files.py  
 爬虫获取基本电影的数据，循环遍历 https://swapi.co/api/films/7 七部电影的信息  
 * ### get_details.py  
@@ -38,7 +38,7 @@ matplotlib绘制散点图
 * ### show_height_mass.py  
 seaborn散点图，回归图，六角形，KDE图，散点图+KDE 图  
 ### 分析图部分展示：  
-![baidu]( https://github.com/WenRichard/Intelligent-Furniture-FAQ/raw/master/Image/百度AnyQ.png "百度AnyQ Framework") 
+![数据分析图]( https://github.com/WenRichard/Knowledge-Graph-Exploration/raw/master/Starts-War-Graph/image/myplot1.png "分析图") 
 
 <h1 id="3">三、实体抽取，关系抽取</h1> 
 
