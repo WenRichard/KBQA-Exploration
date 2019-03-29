@@ -14,7 +14,10 @@ Team: 一梦南柯
    * [实体抽取，关系抽取](#3)
    * [可视化展示](#4)
    * [Reference](#5)
-   
+ 
+# 总体效果图展示：
+![星球大战知识图谱图]( https://github.com/WenRichard/Knowledge-Graph-Exploration/raw/master/Starts-War-Graph/image/graph.png "星球大战知识图谱图") 
+
 <h1 id="1">一、数据爬取</h1>    
 
 ### 数据爬取：[SWAPI 网站](https://swapi.co/documentation)  
