@@ -31,7 +31,7 @@ Team: 一梦南柯
 * #### get_jsondetails.py  
 获取 film_characters.csv 人物文件中，各人物身体的身高、体重、性别、家乡
 
-<h1 id="2">一、数据分析</h1> 
+<h1 id="2">二、数据分析</h1> 
 
 * #### show_scatter.py  
 matplotlib绘制散点图  
@@ -40,17 +40,17 @@ seaborn散点图，回归图，六角形，KDE图，散点图+KDE 图
 分析图部分展示：  
 ![baidu]( https://github.com/WenRichard/Intelligent-Furniture-FAQ/raw/master/Image/百度AnyQ.png "百度AnyQ Framework") 
 
-<h1 id="3">一、实体抽取，关系抽取</h1> 
+<h1 id="3">三、实体抽取，关系抽取</h1> 
 
 **可视化展示通报包括两种方法：**  
 1.写入数据库，后台获取数据库中数据并展示，推荐Neo4j图数据库  
 2.将数据写入Json格式文件，然后前端用Ajax请求数据展示    
 本项目采用第二种  
 ### 3.1 实体抽取，关系抽取    
-#### 1. get_alldata_json.py  
+### 一. get_alldata_json.py  
 1.	第一步读取数据。定义六类实体字典，循环获取各实体对应的超链接  
 2.	第二步获取节点(Nodes)和边(Links)并存储至本地JSON文件中。其中节点为六大类，关系为它们之间互为关联，并定义节点属性（名称、类别、大小等）和关系属性（起始点、结束点、大小）  
-#### 2. 探究Starts War中的节点和边的多种关系  
+### 二. 探究Starts War中的节点和边的多种关系  
 **nodes实体属性：**  
 包括 **id、class、group、size**  
 如：{**'id'**: value['title'], **'class'**: 'film', **'group'**: 0, **'size'**: 20}  
@@ -73,6 +73,30 @@ seaborn散点图，回归图，六角形，KDE图，散点图+KDE 图
 - Target：end实体名称
 - Value：边的权重设置为3
 
+<h1 id="1">四、可视化展示</h1>  
 
-
+### Pipeline 如下：
+### 1. 页面布局
+**要点：掌握D3获取JSON数据展示的过程，然后将其加载至更好的或开源的前端中**
+1.  加载JQuery样式  
+2.  增加D3（Data-Driven Documents）库，它是非常流行的可视化库  
+### 2. 绘制图例
+通过JS获取SVG1布局，并加载六种颜色，对应六个图例。再设置 indicator 图例布局，动态加载颜色  
+### 3. D3获取JSON数据
+调用D3获取JSON文件数据，利用d3.forceSimulation()定义关系图 包括设置边link、排斥电荷charge、关系图中心点。
+### 4. D3设置节点和关系，绘制关系图谱  
+1. 定义d3.json请求python处理好的节点及边  
+2. 通过D3映射数据至HTML中  
+### 5. HTML和CSS添加两个span节点，提供2个按钮  
+### 6. D3实现两种模式下的图形切换  
+### 7. D3鼠标事件显示相关联的节点  
+### 8. D3鼠标事件显示相关联的边  
+### 9. D3实现鼠标移开图形还原  
+### 10. D3实现文字部分鼠标事件  
+### 11. D3获取并显示属性-属性值  
+### 12. HTML增加搜索框  
+### 13. JS增加搜索响应事件  
+### 14. 优化代码-显示相关联节点及边  
+**我们更期待的结果是反馈搜索节点及其相关联的边及节点**  
+方法：增加一个循环，判断所有边的起点（Source）或终点（Target）与该搜索节点相邻，则显示，否则设置其class属性为’inactive’，即隐藏节点
 
