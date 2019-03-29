@@ -101,3 +101,12 @@ seaborn散点图，回归图，六角形，KDE图，散点图+KDE 图
 方法：增加一个循环，判断所有边的起点（Source）或终点（Target）与该搜索节点相邻，则显示，否则设置其class属性为’inactive’，即隐藏节点  
 ### 总体效果图展示：
 ![星球大战知识图谱图]( https://github.com/WenRichard/Knowledge-Graph-Exploration/raw/master/Starts-War-Graph/image/graph.png "星球大战知识图谱图") 
+
+<h1 id="5">五、Reference</h1> 
+
+[Eastmount老师的专栏](https://blog.csdn.net/eastmount/article/category/8653277)  
+注：此项目大多数采用了Eastmount老师专栏中的内容，个人觉得Eastmount老师真的很棒，在他的专栏里也学到了不少东西，也给大家推荐一波  
+**侵权删**
+
+
+
