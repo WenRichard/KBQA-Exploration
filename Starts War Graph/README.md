@@ -19,7 +19,7 @@ Team: 一梦南柯
 
 ### 数据爬取：[SWAPI 网站](https://swapi.co/documentation)  
 ### 数据格式简览：  
-![baidu]( https://github.com/WenRichard/Intelligent-Furniture-FAQ/raw/master/Image/百度AnyQ.png "百度AnyQ Framework") 
+![data](https://github.com/WenRichard/Knowledge-Graph-Exploration/Starts War Graph/image/data.png "data")  
 * ### get_files.py  
 爬虫获取基本电影的数据，循环遍历 https://swapi.co/api/films/7 七部电影的信息  
 * ### get_details.py  
