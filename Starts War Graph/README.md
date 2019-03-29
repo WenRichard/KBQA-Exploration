@@ -17,32 +17,32 @@ Team: 一梦南柯
    
 <h1 id="1">一、数据爬取</h1>    
 
-数据爬取：[SWAPI 网站](https://swapi.co/documentation)  
-数据格式简览：  
+### 数据爬取：[SWAPI 网站](https://swapi.co/documentation)  
+### 数据格式简览：  
 ![baidu]( https://github.com/WenRichard/Intelligent-Furniture-FAQ/raw/master/Image/百度AnyQ.png "百度AnyQ Framework") 
-* #### get_files.py  
+* ### get_files.py  
 爬虫获取基本电影的数据，循环遍历 https://swapi.co/api/films/7 七部电影的信息  
-* #### get_details.py  
+* ### get_details.py  
 遍历每部电影films的实体并通过解析链接获取其他实体  
-* #### get_jsonfilms.py  
+* ### get_jsonfilms.py  
 获取各部电影的实体数量  
-* #### show_hist.py  
+* ### show_hist.py  
 柱状图绘制
-* #### get_jsondetails.py  
+* ### get_jsondetails.py  
 获取 film_characters.csv 人物文件中，各人物身体的身高、体重、性别、家乡
 
 <h1 id="2">二、数据分析</h1> 
 
-* #### show_scatter.py  
+* ### show_scatter.py  
 matplotlib绘制散点图  
-* #### show_height_mass.py  
+* ### show_height_mass.py  
 seaborn散点图，回归图，六角形，KDE图，散点图+KDE 图  
-分析图部分展示：  
+### 分析图部分展示：  
 ![baidu]( https://github.com/WenRichard/Intelligent-Furniture-FAQ/raw/master/Image/百度AnyQ.png "百度AnyQ Framework") 
 
 <h1 id="3">三、实体抽取，关系抽取</h1> 
 
-**可视化展示通报包括两种方法：**  
+### 可视化展示通报包括两种方法：   
 1.写入数据库，后台获取数据库中数据并展示，推荐Neo4j图数据库  
 2.将数据写入Json格式文件，然后前端用Ajax请求数据展示    
 本项目采用第二种  
