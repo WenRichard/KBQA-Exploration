@@ -99,6 +99,10 @@ seaborn散点图，回归图，六角形，KDE图，散点图+KDE 图
 ### 14. 优化代码-显示相关联节点及边  
 **我们更期待的结果是反馈搜索节点及其相关联的边及节点**  
 方法：增加一个循环，判断所有边的起点（Source）或终点（Target）与该搜索节点相邻，则显示，否则设置其class属性为’inactive’，即隐藏节点  
+### 15. 本地服务器 
+  1. 安装XAMPP配置HTML
+  2. apach启动会出现错误，需要修改VM的一个端口和80端口
+
 ### 总体效果图展示：
 ![星球大战知识图谱图]( https://github.com/WenRichard/Knowledge-Graph-Exploration/raw/master/Starts-War-Graph/image/graph.png "星球大战知识图谱图") 
 
