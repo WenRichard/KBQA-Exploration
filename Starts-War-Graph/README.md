@@ -111,7 +111,7 @@ seaborn散点图，回归图，六角形，KDE图，散点图+KDE 图
 <h1 id="5">五、Reference</h1> 
 
 [Eastmount老师的专栏](https://blog.csdn.net/eastmount/article/category/8653277)  
-注：此项目大多数采用了Eastmount老师专栏中的内容，个人觉得Eastmount老师真的很棒，在他的专栏里也学到了不少东西，也给大家推荐一波  
+注：此项目过多的参考了Eastmount老师专栏中的内容，个人觉得Eastmount老师真的很棒，在他的专栏里也学到了不少东西，也给大家推荐一波  
 **侵权删**
 
 
