@@ -17,6 +17,14 @@
 ElasticSearch基本操作  
 
     cd到目录 C:\elasticsearch-6.3.2\bin ，双击elasticsearch.bat，开启elasticsearch本地服务  
+    打开网址 http://localhost:9200/ 或者 http://127.0.0.1:9200/ 查看elasticsearch基本信息
+    
+    
+    
+    reference：  
+    https://blog.csdn.net/wufaliang003/article/details/81368365
+    https://blog.csdn.net/liuzemeeting/article/details/80708035
+    
     
 
     
