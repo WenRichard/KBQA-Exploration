@@ -6,6 +6,7 @@
     
     Python版本为3.6
     ElasticSearch为6.3.2
+    
 安装依赖包  
    - [elasticsearch-6.3.2-zip](https://www.elastic.co/cn/downloads/past-releases/elasticsearch-6-3-2)  
    - [kibana-6.3.2-windows-x86_64](https://www.elastic.co/cn/downloads/past-releases/kibana-6-3-2)  
