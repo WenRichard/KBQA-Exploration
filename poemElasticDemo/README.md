@@ -4,8 +4,21 @@
 
 环境配置
     
-    Python版本为3.7
-    ElasticSearch为6.4.2
+    Python版本为3.6
+    ElasticSearch为6.3.2
+安装依赖包  
+   - [elasticsearch-6.3.2-zip](https://www.elastic.co/cn/downloads/past-releases/elasticsearch-6-3-2)  
+   - [kibana-6.3.2-windows-x86_64](https://www.elastic.co/cn/downloads/past-releases/kibana-6-3-2)  
+   - Python环境中，第一步需要安装相对应的elasticsearch模块，pip install elasticsearch
+   - [elasticsearch-analysis-ik分词插件](https://github.com/medcl/elasticsearch-analysis-ik)  
+    直接cd到 ./elasticsearch/bin目录下，执行 elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.3.2/elasticsearch-analysis-ik-6.3.2.zip  
+
+ElasticSearch基本操作  
+
+    cd到目录 C:\elasticsearch-6.3.2\bin ，双击elasticsearch.bat，开启elasticsearch本地服务  
+    
+
+    
 
 目录说明
     
