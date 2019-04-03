@@ -18,20 +18,17 @@ ElasticSearch基本操作
 
     cd到目录 C:\elasticsearch-6.3.2\bin ，双击elasticsearch.bat，开启elasticsearch本地服务  
     打开网址 http://localhost:9200/ 或者 http://127.0.0.1:9200/ 查看elasticsearch基本信息
-    
-    
-    
+    打开网址 http://localhost:5601/ 或者 http://127.0.0.1:5601/ 查看Kibana控制界面基本信息    
     reference：  
     https://blog.csdn.net/wufaliang003/article/details/81368365
     https://blog.csdn.net/liuzemeeting/article/details/80708035
     
-    
-
-    
-
+   
 目录说明
     
     demo文件夹包含的是完成整个问答demo流程所需要的脚本。
+        demo test.py
+            ElasticSearch基本操作练习
         data文件夹是结巴外部词典的数据
             dynasty.txt朝代
             extendWords.txt扩展词
@@ -51,3 +48,9 @@ ElasticSearch基本操作
             问题映射
         wordHandle.py
             简单语言处理
+
+Refernec：  
+[基于ElasticSearch的问答系统(KBQA)](https://blog.csdn.net/keyue123/article/details/85317774)
+
+
+    
