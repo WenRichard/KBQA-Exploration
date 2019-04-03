@@ -4,6 +4,7 @@
 |项目名称|项目类型|可视化|完成时间|
 |-|-|-|-|
 |[星球大战知识图谱](https://github.com/WenRichard/Knowledge-Graph-Exploration/tree/master/Starts-War-Graph)|知识图谱|是|2019/3/29|
+|[基于es的问答系统](https://github.com/WenRichard/Knowledge-Graph-Exploration/tree/master/poemElasticDemo)|ElasticSearch|否|2019/4/3|
 
 **有时间就会更新知识图谱相关项目，有兴趣的同学可以follow一下，也欢迎Fork和Star！**  
 **留言请在Issues或者email xiezhengwen2013@163.com**
