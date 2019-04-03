@@ -12,6 +12,7 @@
    - [kibana-6.3.2-windows-x86_64](https://www.elastic.co/cn/downloads/past-releases/kibana-6-3-2)  
    - Python环境中，第一步需要安装相对应的elasticsearch模块，pip install elasticsearch
    - [elasticsearch-analysis-ik分词插件](https://github.com/medcl/elasticsearch-analysis-ik)  
+   - [elasticsearch-head插件](https://blog.csdn.net/u012888052/article/details/79710429)  
     直接cd到 ./elasticsearch/bin目录下，执行 elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.3.2/elasticsearch-analysis-ik-6.3.2.zip  
 
 ElasticSearch基本操作  
